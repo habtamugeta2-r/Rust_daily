@@ -1,4 +1,8 @@
 fn main() {
-    let product_amount = 99;
-    println!("Hello, world!{product_amount}");
+    let mut cap = 120;
+    println!("Hello, world!{cap}");
+    cap = 99;
+    println!("Hello, world!{cap}");
+
+    
 }
