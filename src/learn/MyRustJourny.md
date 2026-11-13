@@ -19,7 +19,7 @@ And here is the most important thing to internalize
 before reading anything else:
 
     A variable holds ONLY the current value.
-    It has no memory of what came before.
+    It has no memory of what came before. // memory less
     It is a snapshot of the present, not a journal
     of the past.
 
@@ -307,6 +307,7 @@ cups_sold = 95;
          │    95   │  ← current value (120 and 150 gone)
          └─────────┘
 ```
+as we declare we can get row bites, so, as we asign the first value the memory take one, but as we reasign the memory storage store the second value and forget the value. 
 
     At every point in time, the variable holds exactly
     one value. The previous values are not stored
